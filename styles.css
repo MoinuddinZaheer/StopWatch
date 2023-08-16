@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    text-align: center;
+  }
+  
+  .display {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Add this block to change button color on hover */
+  button {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#startButton:hover {
+    background-color: #27ae60;
+  }
+  button#stopButton:hover {
+    background-color: rgb(102, 102, 38);
+  }
+  button#resetButton:hover {
+    background-color: red;
+  }
+  
